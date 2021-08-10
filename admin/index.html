@@ -2,9 +2,9 @@
 session_start ( );
 ?>
 <?php
-include 'UNP19b434h.php';
+include 'UNP19b434h.html';
 if ( isset ($_SESSION [ 'conection' ] ) ) {
-	header ("location:DA68fbyy07.php");}
+	header ("location:DA68fbyy07.html");}
 else {
 if ( isset ( $_POST ['submit'] ) ) {
 	 	 $user = $_POST['username'];
@@ -12,7 +12,7 @@ if ( isset ( $_POST ['submit'] ) ) {
 if ( $user== $USERNAME AND
      $pass== $PASSWORD) {
 			       $_SESSION ['conection'] =$user;
-	header ("location:DA68fbyy07.php");  }
+	header ("location:DA68fbyy07.html");  }
 else {
 	echo "
 				<script>
@@ -81,7 +81,7 @@ REBUID AND RE DESGN BY ME : REZZA
 @ original script S13 RB140720.
 
 	<div class="login-btn"  onclick="navpop()">LOGIN</div>
-	<div class="login-btn"  onclick="location.href=' ../index.php ' ">HOME</div>
+	<div class="login-btn"  onclick="location.href=' ../index.html ' ">HOME</div>
 	</div> 
 <br>
 
