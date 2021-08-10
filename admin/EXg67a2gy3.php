@@ -1,0 +1,10 @@
+<?php
+		session_start ( );
+		session_destroy ( );
+		echo "
+		<script>
+		alert ('logout was successful. . . the result page is safe . . .');
+		window.location.href='index.php';
+		</script>
+		";
+?>

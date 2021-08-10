@@ -1,0 +1,95 @@
+
+
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	background: white;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin:0;
+	color:#000;
+	font-family:'Teko',sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+.tw-login-layer {
+	background:#000000;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+.tw-content {
+	max-width:336px;		/* left - right */
+	height:100%;				/* top - bottom */
+	line-height:16px;		/* text space top - bottom */
+	padding-top:0px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+}
+.tw-content img {
+	width:50px;
+	margin-right:0px;
+	margin-left:0px;
+	margin-top:18px;
+	float:left;
+}
+.tw-content-text {
+	color:#d9d9d9;
+	font-size:31px;
+	font-family:'Droid Sans',Helfetica,sans-serif;
+	text-align:left;
+	margin-top:90px;
+	margin-bottom:10px;
+}
+.tw-input-box{
+	background:#000000;
+	width:100%;
+	height:60px;
+	margin-top:20px;
+	margin-bottom:5px;
+	padding: 10px;
+	color:#ffffff;
+	font-size:14px;
+	font-family:'Droid Sans',Helfetica,sans-serif;
+	text-align:left;
+	border:1px solid #333333;
+	border-radius:5px;
+}
+.tw-button-01 {
+	background: #1da1f2;
+    width: 100%;
+    height: auto;
+	margin-top:20px;
+    padding: 14px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    letter-spacing: 1;
+}
+.tw-footer-text {
+    width: auto;
+    height: auto;
+    margin: 0.5%;
+    margin-top: 7%;
+    color: #1da1f2;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    display: inline-block;
+}
+
